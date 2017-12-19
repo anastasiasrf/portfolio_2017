@@ -1,0 +1,104 @@
+.header {
+  background-color: gray;
+  width: 100%;
+  padding: 0 7%;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+  text-align: center;
+
+}
+
+.tul {
+  background-color: blue;
+  width: 100%;
+  padding: 0 7%;
+  margin: 0;
+  max-width: none;
+  height: 80vh;
+  text-align: right;
+}
+
+.nachbarschaft {
+  background-color: green;
+  width: 100%;
+  padding: 0 7%;
+  margin: 0;
+  max-width: none;
+  height: 80vh;
+  text-align: right;
+}
+
+.donatella {
+  background-color: red;
+  width: 100%;
+  padding: 0 7%;
+  margin: 0;
+  max-width: none;
+  height: 80vh;
+  text-align: center;
+}
+
+.dso {
+  background-color: brown;
+  width: 100%;
+  padding: 0 7%;
+  margin: 0;
+  max-width: none;
+  height: 80vh;
+  text-align: center;
+}
+
+.illustration {
+  background-color: pink;
+  width: 100%;
+  padding: 0 7%;
+  margin: 0;
+  max-width: none;
+  height: 80vh;
+  text-align: center;
+}
+
+.bilder {
+  position: relative;
+  width: 100%;
+  transform-origin: 50% 50%;
+  transform-style: preserve-3d;
+  animation: floating 5s -1s infinite;
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(-5%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+
+
+img{
+  width: 100%;
+  max-width: 100%;
+  height:auto;
+}
+
+h1 {
+  z-index: 1;
+  top: 30%;
+  position: relative;
+  font-size: 3em;
+  display: block;
+  color: white;
+  font-weight: 300;
+}
+
+p {
+  z-index: 1;
+  position: relative;
+  top: 30%;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #C3CAD9;
+}
