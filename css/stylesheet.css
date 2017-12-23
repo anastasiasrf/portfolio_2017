@@ -19,7 +19,7 @@ a:link {
   text-decoration: none;
 }
 
-
+/*
 .button_container {
   position: fixed;
   top: 5%;
@@ -67,7 +67,6 @@ a:link {
   z-index: 3;
   position: fixed;
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  /*background: #FF5252;*/
   top: 0;
   left: 0;
   width: 100%;
@@ -151,7 +150,7 @@ a:link {
   height: 3px;
   background: #FFF;
   transition: .35s;*/
-}
+/*}
 
 @keyframes fadeInRight {
   0% {
@@ -162,7 +161,7 @@ a:link {
     opacity: 1;
     left: 0;
   }
-}
+}*/
 
 
 /*section {
