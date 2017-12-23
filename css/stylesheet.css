@@ -7,6 +7,164 @@ body {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
+/*a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}*/
+
+a:link {
+  text-decoration: none;
+}
+
+
+.button_container {
+  position: fixed;
+  top: 5%;
+  right: 2%;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity .25s ease;
+}
+.button_container:hover {
+  opacity: .7;
+}
+.button_container.active .top {
+  transform: translateY(11px) translateX(0) rotate(45deg);
+  background: #007bff;
+}
+.button_container.active .middle {
+  opacity: 0;
+  background: #007bff;
+}
+.button_container.active .bottom {
+  transform: translateY(-11px) translateX(0) rotate(-45deg);
+  background: #007bff;
+}
+.button_container span {
+  background: #007bff;
+  border: none;
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .35s ease;
+  cursor: pointer;
+}
+.button_container span:nth-of-type(2) {
+  top: 11px;
+}
+.button_container span:nth-of-type(3) {
+  top: 22px;
+}
+
+.overlay {
+  z-index: 3;
+  position: fixed;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  /*background: #FF5252;*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+}
+.overlay.open {
+  opacity: .9;
+  visibility: visible;
+  height: 100%;
+}
+.overlay.open li {
+  animation: fadeInRight .5s ease forwards;
+  animation-delay: .35s;
+}
+.overlay.open li:nth-of-type(2) {
+  animation-delay: .4s;
+}
+.overlay.open li:nth-of-type(3) {
+  animation-delay: .45s;
+}
+.overlay.open li:nth-of-type(4) {
+  animation-delay: .50s;
+}
+.overlay nav {
+  position: relative;
+  height: 70%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 50px;
+  text-align: center;
+}
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.overlay ul li {
+  display: block;
+  height: 25%;
+  height: calc(100% / 4);
+  min-height: 50px;
+  position: relative;
+  opacity: 0;
+}
+.overlay ul li a {
+  display: block;
+  position: relative;
+  color: #007bff;
+  text-decoration: none;
+  overflow: hidden;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+.overlay ul li a:hover {
+  background-size: 100% 88%;
+}
+
+.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+  width: 100%;
+}
+.overlay ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+
+  /*transform: translateX(-50%);
+  height: 3px;
+  background: #FFF;
+  transition: .35s;*/
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+
 /*section {
   background-color: gray;
   width: 100%;
@@ -34,7 +192,6 @@ body {
 }
 
 .ueber_mich_text {
-
   /*word-break: break-word;*/
   font-family: 'Roboto Mono', monospace;
   display: flex;
@@ -102,15 +259,9 @@ body {
 }
 
 
-/*.bilder img {
-  position: relative;
-  width: 100%;
-  max-width: none;
-  height: 100%;
-  transform-origin: 50% 50%;
-  transform-style: preserve-3d;
+.bilder {
   animation: floating 5s -1s infinite;
-}*/
+}
 
 
 @keyframes floating {
@@ -123,12 +274,6 @@ body {
 }
 
 
-
-/*img{
-  width: 100%;
-  max-width: 100%;
-  height:auto;
-}*/
 
 .ueberschriften_l {
   font-family: 'Roboto Mono', monospace;
@@ -160,16 +305,13 @@ body {
 }
 
 
-
-
-/*h1 {
-  font-size: 3em;
-  color: white;
-  font-weight: 300;
+.underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
 }
-
-p {
-  font-size: 1.5em;
-  font-weight: 500;
-  color: #C3CAD9;
-}*/
+.underline--magical:hover {
+  background-size: 100% 88%;
+}
