@@ -3,8 +3,8 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
-  width: 100%;
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-repeat:no-repeat
 }
 
 a:link {
@@ -121,7 +121,7 @@ nav ul li a:hover {
   align-items: center;
 }
 
-.ueber_mich_text {
+.beschreibung_text {
   font-family: 'Roboto Mono', monospace;
   display: flex;
   align-items: center;
@@ -216,7 +216,42 @@ nav ul li a:hover {
 }
 /* Hover effekt im Text ende */
 
+/*TUL extra Seite anfang*/
+.zu a {
+  position: fixed;
+  top: 50%;
+  right: 5px;
+  width: 45px;
+  height: 45px;
+  z-index: 20;
+  cursor: pointer;
+  color: white;
+  font-size: 3em;
+}
+
+.tul_beschreibung {
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.2em;
+}
+
+.next_seite span{
+  margin: 50px;
+  line-height: 30px;
+}
+
+.next_seite {
+  padding: 50px 0px;
+}
+/*TUL extra Seite ende*/
+
 @media (max-width: 768px) {
+  .wrapper {
+    padding: 0 7%;
+  }
   .ueberschriften_l, .ueberschriften_r {
     line-height: 20px;
     text-align: center;
@@ -228,8 +263,11 @@ nav ul li a:hover {
   .schrift_nav {
     font-size: 40pt;
   }
-  .ueber_mich_text {
+  .beschreibung_text {
     font-size: 1.2em;
+  }
+  .tul_beschreibung {
+    font-size: 1em;
   }
 }
 
