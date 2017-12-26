@@ -250,7 +250,6 @@ nav ul li a:hover {
   padding: 50px 0px;
   font-family: 'Roboto Mono', monospace;
 }
-
 /*TUL extra Seite ende*/
 
 @media (max-width: 768px) {
@@ -271,6 +270,11 @@ nav ul li a:hover {
   .projekt_beschreibung {
     font-size: 1em;
     text-align: center;
+  }
+  .next_seite span{
+    word-break: breal-word;
+    margin: 100px;
+    line-height: 50px;
   }
 }
 
