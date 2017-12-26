@@ -231,7 +231,7 @@ nav ul li a:hover {
   font-size: 3em;
 }
 
-.tul_beschreibung {
+.projekt_beschreibung {
   padding: 0 2%;
   height: 80vh;
   align-items: center;
@@ -268,8 +268,9 @@ nav ul li a:hover {
   .beschreibung_text {
     font-size: 1.2em;
   }
-  .tul_beschreibung {
+  .projekt_beschreibung {
     font-size: 1em;
+    text-align: center;
   }
 }
 
