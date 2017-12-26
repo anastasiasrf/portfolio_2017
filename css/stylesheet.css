@@ -104,6 +104,9 @@ nav ul li a:hover {
   background-color: transparent;
 }
 /* Hamburger Menü ende */
+.wrapper {
+  padding: 0 5%;
+}
 
 .header {
   width: 100%;
@@ -115,7 +118,6 @@ nav ul li a:hover {
 
 .about {
   height: 80vh;
-  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,6 +232,7 @@ nav ul li a:hover {
 }
 
 .tul_beschreibung {
+  padding: 0 2%;
   height: 80vh;
   align-items: center;
   justify-content: center;
@@ -239,19 +242,18 @@ nav ul li a:hover {
 }
 
 .next_seite span{
-  margin: 50px;
+  margin: 30px;
   line-height: 30px;
 }
 
 .next_seite {
   padding: 50px 0px;
+  font-family: 'Roboto Mono', monospace;
 }
+
 /*TUL extra Seite ende*/
 
 @media (max-width: 768px) {
-  .wrapper {
-    padding: 0 7%;
-  }
   .ueberschriften_l, .ueberschriften_r {
     line-height: 20px;
     text-align: center;
