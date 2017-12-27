@@ -294,10 +294,11 @@ nav ul li a:hover {
 }
 /*TUL extra Seite ende*/
 
-/* Lokalizer extras */
+/* Lokalizer extras anfang*/
 
 .lokalizer_hintergrund {
-  background-image: linear-gradient(to top, #19dfb8 0%, #92ca04 100%);
+  background-image: linear-gradient(to top, #cfd9df 0%, #19dfb8 50%, #92ca04 100%);
+  /*background-image: linear-gradient(to top, #19dfb8 0%, #92ca04 100%);*/
   color: white;
 }
 
@@ -308,8 +309,18 @@ nav ul li a:hover {
     align-items: center;
     text-align: left;
 }
-
-
+/* Lokalizer extras ende*/
+/* DSO extras anfang*/
+.dso_hintergrund {
+background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+color: white;
+}
+/* DSO extras ende*/
+/* Craft Beer extras anfang*/
+.craft_illu_bilder {
+  margin-bottom: 30px;
+}
+/* Craft Beer extras ende*/
 
 @media (max-width: 768px) {
   .ueberschriften_l, .ueberschriften_r {
