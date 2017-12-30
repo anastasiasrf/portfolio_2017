@@ -12,6 +12,7 @@ a:link {
 }
 
 /* Hamburger Menü anfang*/
+
 nav, .navbar-toggle {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -103,6 +104,7 @@ nav ul li a:hover {
 .navbar-on .bar2 {
   background-color: transparent;
 }
+
 /* Hamburger Menü ende */
 
 .wrapper {
@@ -110,6 +112,7 @@ nav ul li a:hover {
 }
 
 /* Header Section in Home anfang*/
+
 .header {
   height: 100vh;
   display: flex;
@@ -131,6 +134,7 @@ nav ul li a:hover {
 }
 
 /* Scroll Pfeil anfang */
+
 .scroll-down {
   position: absolute;
   bottom: 30px;
@@ -157,7 +161,9 @@ nav ul li a:hover {
   border: 2px solid #007bff;
   border-width: 0px 0 2px 2px;
 }
+
 /* Scroll Pfeil ende */
+
 /* Header Section in Home ende*/
 
 .about {
@@ -248,6 +254,7 @@ nav ul li a:hover {
 }
 
 /* Hover effekt im Text anfang */
+
 .underline--magical {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   background-repeat: no-repeat;
@@ -259,9 +266,11 @@ nav ul li a:hover {
 .underline--magical:hover {
   background-size: 100% 88%;
 }
+
 /* Hover effekt im Text ende */
 
 /*TUL bzw einzel Projekte extras anfang*/
+
 .zu a {
   position: fixed;
   top: 50%;
@@ -293,9 +302,11 @@ nav ul li a:hover {
   padding: 50px 0px;
   font-family: 'Roboto Mono', monospace;
 }
+
 /*TUL bzw einzel Projekte extras ende*/
 
 /* Lokalizer extras anfang*/
+
 .lokalizer_hintergrund {
   background-image: linear-gradient(to top, #cfd9df 0%, #19dfb8 50%, #92ca04 100%);
   color: white;
@@ -308,26 +319,33 @@ nav ul li a:hover {
   align-items: center;
   text-align: left;
 }
+
 /* Lokalizer extras ende*/
 
 /* DSO extras anfang*/
+
 .dso_hintergrund {
   background-image: linear-gradient(to top, #cfd9df 0%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
   color: white;
 }
+
 /* DSO extras ende*/
 
 /* Craft Beer und Illustionen extras anfang*/
+
 .craft_illu_bilder {
   margin-bottom: 30px;
 }
-.illu_hintergrund{
-background-image: linear-gradient(to top, #cfd9df 0%, #434343 30%, black 100%);
-color: white;
+
+.illu_hintergrund {
+  background-image: linear-gradient(to top, #cfd9df 0%, #434343 30%, black 100%);
+  color: white;
 }
+
 /* Craft Beer und Illustionen extras ende*/
 
 /* Footer und Kontakt anfang */
+
 .kontakt {
   padding: 0 5%;
   /*background-color: #007bff;*/
@@ -355,11 +373,13 @@ color: white;
   /*background-color: #007bff;
   background-color: #f5f7fa;*/
   /*background-color: black;*/
-/*  color: white;*/
+  /*  color: white;*/
 }
+
 /* Footer und Kontakt ende */
 
 /* Media Queries ab hier */
+
 @media (max-width: 479px) {
   .ueberschriften_l, .ueberschriften_r {
     line-height: 20px;
