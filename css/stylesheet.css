@@ -319,8 +319,44 @@ nav ul li a:hover {
 .craft_illu_bilder {
   margin-bottom: 30px;
 }
+.illu_hintergrund{
+background-image: linear-gradient(to top, #cfd9df 0%, #434343 30%, black 100%);
+color: white;
+}
 /* Craft Beer und Illustionen extras ende*/
+/* Footer und Kontakt anfang */
+.kontakt {
+  padding: 0 5%;
+  /*background-color: #007bff;*/
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  font-family: 'Roboto Mono', monospace;
+  /*color: white;*/
+}
 
+.kontakt i {
+  margin-right: 20px;
+  color: black;
+  z-index: 1;
+}
+
+
+.foot {
+  font-family: 'Roboto Mono', monospace;
+  height: 7vh;
+  padding-top: 6px;
+  /*background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;*/
+  /*background-color: #007bff;
+  background-color: #f5f7fa;*/
+  /*background-color: black;*/
+/*  color: white;*/
+}
+
+/* Footer und Kontakt ende */
 @media (max-width: 768px) {
   .ueberschriften_l, .ueberschriften_r {
     line-height: 20px;
@@ -406,6 +442,10 @@ nav ul li a:hover {
   .loka_texte_bilder h3 {
     text-align: center;
     font-size: 1em;
+  }
+  .kontakt {
+    font-size: 1.2em;
+    height: 50vh;
   }
 }
 
