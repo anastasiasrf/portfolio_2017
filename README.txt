@@ -20,7 +20,9 @@ Das einzige was mir Sorgen bereitet sind die Media Queries.
 Ich habe zwar meine Seite extra auf Github hochgeladen um es noch auf meinen mobilen Geräten gegen zu kontrollieren, 
 falls Firefox es nicht richtig anzeigen sollte aber ich bin mir trotzdem etwas unsicher ob ich diese korrekt angewendet habe 
 (obwohl alles auf meinem Smartphone und Tablet genauso aussah wie ich es haben wollte). 
-Wenn ich noch etwas Zeit hätte, würde ich noch mit srcet arbeiten und extra Bilder für Desktop und Mobilgeräte einfügen um die Ladezeiten zu verringern.
+Im Großen und Ganzen bin ich jedoch zufrieden mit dem Endergebnis.
+
+Wenn ich jedoch noch etwas Zeit hätte, würde ich noch mit srcet arbeiten und extra Bilder für Desktop und Mobilgeräte einfügen um die Ladezeiten zu verringern.
 
 Falls etwas beim versenden kaputt gehen sollte hier ist die Seite nochmal auf Github:
 https://anastasiasrf.github.io/portfolio_2017/
