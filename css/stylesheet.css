@@ -203,6 +203,10 @@ nav ul li a:hover {
   height: 100%;
 }
 
+.einsichten {
+  height: 100%;
+}
+
 .illustrationen {
   height: 100%;
 }
@@ -335,6 +339,10 @@ nav ul li a:hover {
 
 .craft_illu_bilder {
   margin-bottom: 30px;
+}
+
+.einsichten_hintergrund {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 .illu_hintergrund {
